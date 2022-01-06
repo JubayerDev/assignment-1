@@ -4,3 +4,89 @@ body{
     margin: 0;
     padding: 0;
 }
+.flexible-container{
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 70px;
+}
+.half-width{
+    width: 50%;
+    margin-top: 40px;
+}
+.half-width h1{
+    font-size: 50px;
+    border-left: 4px solid #FF5959;
+    border-image-slice: 1;
+    border-radius: 2px;
+    height: 110px;
+    padding-left: 10px;
+}
+.half-width img{
+    position: absolute;
+    width: 410px;
+    top: -55px;
+
+}
+.span-color{
+    color: #FFAD5A;
+}
+.button-link{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    padding: 11px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.mission-title{
+    font-size: 50px;
+    color: #13103A;
+    text-align: center;
+    margin: 0 300px;
+    margin-bottom: 50px;
+}
+.mission-items img{
+    width: 30%;
+}
+.mission-box{
+    padding: 60px 20px;
+    width: 25%;
+    background-color: #EDF5F6;
+    border-radius: 20px;
+}
+.vission-box{
+    padding: 60px 20px;
+    margin-left: 15px;
+    width: 25%;
+    background-color: #FFEEEE;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.goals-box{
+    padding: 60px 20px;
+    margin-left: 15px;
+    width: 25%;
+    background-color: #FFF4D6;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.mission-items p{
+    text-align: justify;
+    color: #333;
+}
+.develop-area img{
+    width: 30%;
+}
+.develop-items{
+    width: 40%;
+    margin-left: 100px;
+}
+.develop-items h1{
+    font-size: 38px;
+    color: #333;
+}
+.develop-items p{
+    color: #333;
+}
